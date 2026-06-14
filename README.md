@@ -96,36 +96,52 @@ Each image undergoes the following preprocessing steps:
 
 ---
 
-## 📈 Results
+## 📈 Model Performance
 
-### Test Accuracy
+### Test Set Results
 
-**96.99%**
+| Metric | Score |
+|----------|---------|
+| Accuracy | 96.99% |
+| Precision | 0.97 |
+| Recall | 0.97 |
+| F1-Score | 0.97 |
 
-### Performance Metrics
+The model demonstrates strong classification performance across all five rice grain varieties.
 
-| Metric    | Score  |
-| --------- | ------ |
-| Accuracy  | 96.99% |
-| Precision | 0.97   |
-| Recall    | 0.97   |
-| F1-Score  | 0.97   |
+### Confusion Matrix
 
-The model demonstrates strong performance across all five rice grain varieties with minimal class confusion.
+![Confusion Matrix](images/confusion_matrix.png)
+
+### Classification Report
+
+![Classification Report](images/classification_report.png)
 
 ---
 
 ## 🧪 Prediction System
 
-The project includes a prediction pipeline that allows users to upload a rice grain image and classify its variety.
+The project includes an interactive prediction pipeline that allows users to upload a rice grain image and receive a classification prediction.
 
-### Example
+### Example Prediction
 
-Input: Rice Grain Image
+```text
+Input Image: Jasmine (3165).jpg
 
-Output: Predicted Rice Variety
+Predicted Class: Jasmine
+```
 
----
+### Automated Random Testing
+
+Random images from the dataset are selected and evaluated automatically.
+
+Each prediction displays:
+
+- Actual Label
+- Predicted Label
+- Correct/Incorrect Status
+
+![Predictions](images/prediction_examples.png)
 
 ## 📁 Workflow
 
