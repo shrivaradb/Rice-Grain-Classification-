@@ -111,11 +111,11 @@ The model demonstrates strong classification performance across all five rice gr
 
 ### Confusion Matrix
 
-![Confusion Matrix](images/Confusion_Matrix.png)
+![Confusion Matrix](Images/Confusion_Matrix.png)
 
 ### Classification Report
 
-![Classification Report](images/Classification_Report.png)
+![Classification Report](Images/Classification_Report.png)
 
 ---
 
