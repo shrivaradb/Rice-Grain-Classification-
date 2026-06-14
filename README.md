@@ -141,7 +141,7 @@ Each prediction displays:
 - Predicted Label
 - Correct/Incorrect Status
 
-![Predictions](images/prediction_examples.png)
+![Predictions]()
 
 ## 📁 Workflow
 
