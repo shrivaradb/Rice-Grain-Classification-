@@ -1,4 +1,4 @@
-# 🌾 Rice Grain Classification using Computer Vision & KNN
+# 🌾 Rice Grain Classification using Computer Vision & Machine Learning
 
 ## 📖 Overview
 
